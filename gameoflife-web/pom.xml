@@ -174,4 +174,10 @@
         </dependency>
 
     </dependencies>
+     <exclusions>
+    <exclusion>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-asm</artifactId>
+    </exclusion>
+</exclusions>  
 </project>
